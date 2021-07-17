@@ -1,29 +1,54 @@
 body{
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("images/hope.jpg");
-    height: 30vh;
+    height: 90vh;
     -webkit-background-size: auto;
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    /* position: relative; */
-    /* display: inline-flex; */
-    /* align-items: center; */
+    object-fit: fill;
+}
+
+.container {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 3.1rem;
+  width: 50%;
+  font-size: 2.2rem;
+  object-position: center;
+  font-weight: 500;
+  color: #fff;
+  padding: 180px 20px 20px;
+  text-shadow: 4px 4px 8px #000;
 }
 
 
 .razorpay-embed-btn{
     position: relative;
-    margin-top: 300px;
+    /* margin-top: 300px; */
 
 }
 
-@media only screen and (min-device-width: 340px) and (max-device-width: 600px){
+@media only screen and (min-device-width: 280px) and (max-device-width: 812px){
 
 body {
-    background-image: url(images/hope.jpg) !important;
+    background-image: url(images/ph-hope.jpg) !important;
     background-size: cover;
+    height: 100vh;
     background-repeat: no-repeat;
+  }
 
+  .container {
+    width: 100%;
+    text-align: center;
+    font-size: 4.8rem;
+    line-height: 5.5rem;
+    font-weight: 500;
+    padding: 100px 0px 0px;
+  }
+
+  .razorpay-embed-btn{
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 500px;
   }
 }
 
