@@ -37,7 +37,7 @@ document.querySelector('.navbar-toggler').addEventListener('click', function(){
 if (window.screen.height == 812) {
   for(var i = 0; i < 3; i++) {
     icons[i].classList.add('fa-5x');
-    footerIcons[i].classList.add('fa-3x');
+    footerIcons[i].classList.add('fa-2x');
   }
 }
 
