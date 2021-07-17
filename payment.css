@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("images/hope.jpg");
+    background-image: url("images/hope.jpg");
     height: 90vh;
     -webkit-background-size: auto;
     background-size: cover;
