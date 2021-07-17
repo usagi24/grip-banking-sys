@@ -30,7 +30,7 @@ body{
 @media only screen and (min-device-width: 280px) and (max-device-width: 812px){
 
 body {
-    background-image: url(images/ph-hope.jpg) !important;
+    background-image: url("images/ph-hope.jpg") !important;
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
