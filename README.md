@@ -23,7 +23,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This Project has been assigned to me by The Sparks Foundation || Education Management Singapore, Singapore under Graduate Rotational Internship Program (GRIP) || #GRIPJULY21 || Web Development & Designing Intern || INTERSHIP.
+This Project has been assigned to me by [The Sparks Foundation](https://internship.thesparksfoundation.info/) || Education Management Singapore, Singapore under Graduate Rotational Internship Program (GRIP) || #GRIPJULY21 || Web Development & Designing Intern || INTERSHIP.
 
 ### Built With
 
