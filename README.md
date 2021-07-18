@@ -1,4 +1,4 @@
-Blessing & Care
+Unity
 
 My Objective is to raise donations for small businesses.
 
