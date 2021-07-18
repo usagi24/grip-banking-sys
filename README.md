@@ -27,7 +27,7 @@ This Project has been assigned to me by The Sparks Foundation || Education Manag
 
 ### Built With
 
-* [](HTML)
-* [](CSS)
-* [](BOOTSTRAP)
-* [JAVASCRIPT]
+* HTML
+* CSS
+* BOOTSTRAP
+* JAVASCRIPT
