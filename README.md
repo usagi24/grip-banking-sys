@@ -36,6 +36,10 @@ This Project has been assigned to me by The Sparks Foundation || Education Manag
 
 * https://usagi24.github.io/grip-banking-sys/
 
+### Repo-link
+
+* [https://github.com/usagi24/grip-banking-sys](https://github.com/usagi24/grip-banking-sys)
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -68,6 +72,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 LinkedIn - [@LinkedIn_profile](https://www.linkedin.com/in/kankana-dolai-324303209/)
-
-Project Link: [https://github.com/usagi24/grip-banking-sys](https://github.com/usagi24/grip-banking-sys)
-
