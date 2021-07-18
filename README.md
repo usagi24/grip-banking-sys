@@ -63,7 +63,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Kankana Dolai - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
+LinkedIn - [@LinkedIn_profile](https://www.linkedin.com/in/kankana-dolai-324303209/)
 Project Link: [https://github.com/usagi24/grip-banking-sys](https://github.com/usagi24/grip-banking-sys)
 
