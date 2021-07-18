@@ -63,7 +63,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Kankana Dolai - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
