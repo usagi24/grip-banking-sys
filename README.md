@@ -34,7 +34,7 @@ This Project has been assigned to me by The Sparks Foundation || Education Manag
 
 ### Website
 
-https://usagi24.github.io/grip-banking-sys/
+* https://usagi24.github.io/grip-banking-sys/
 
 <!-- GETTING STARTED -->
 ## Getting Started
