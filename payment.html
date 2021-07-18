@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Covidence Payment Gateway</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="payment.css">
+
+  </head>
+  <body>
+    
+      <div class="container">You can help a lots of people by donating a little</div>
+      <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HZhU6TAuKUmJRj/view"
+        data-text="Donate Now To Save Life" data-color="#185ADB" data-size="large">
+        <script>
+          (function () {
+            var d = document; var x = !d.getElementById('razorpay-embed-btn-js')
+            if (x) {
+              var s = d.createElement('script'); s.defer = !0; s.id = 'razorpay-embed-btn-js';
+              s.src = 'https://cdn.razorpay.com/static/embed_btn/bundle.js'; d.body.appendChild(s);
+            } else {
+              var rzp = window['__rzp__'];
+              rzp && rzp.init && rzp.init()
+            }
+          })();
+        </script>
+      </div>
+
+  </body>
+</html>
