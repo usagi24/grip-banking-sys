@@ -1,0 +1,593 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 3.0rem;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1.7rem;
+  color: #000;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h4 {
+  font-weight: 600;
+  padding: 1.3rem 0;
+  font-size: 1.5rem;
+  color: #8f8f8f;
+  margin: 0;
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+@media only screen and (max-device-width: 812px) {
+  h4 {
+    font-weight: 600;
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+}
+
+.container-fluid {
+  padding: 1% 5% 1%;
+}
+
+@media only screen and (max-device-width: 812px) {
+  .container-fluid {
+    padding: 3% 9% 3%;
+  }
+}
+
+/* Navbar */
+
+.cover-img {
+  background-image: url('images/business-woman.jpg');
+  width: 100%;
+  height: calc(100vh - 60px);
+  padding-bottom: 40px;
+  margin: 0;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.navbar-brand img{
+  width: 60px;
+  height: 60px;
+  padding: 0;
+}
+
+.navbarscroll {
+  background-color: #231E23;
+  padding: 0;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn-outline-info {
+  color: #A2DBFA;
+  border-color: #A2DBFA;
+}
+
+.btn-outline-info:hover {
+  color: #000;
+  border-color: #39A2DB;
+  background-color: #39A2DB;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding: 0 18px;
+}
+
+ul li{
+  margin-right: 0;
+}
+
+.nav-link {
+  font-size: 1rem;
+  padding: 0.5rem 0rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+@media only screen and (max-device-width: 812px) {
+  .cover-img {
+    background-image: url('images/ph-business-woman.jpg');
+    height: calc(100vh - 550px);
+    background-position: center;
+  }
+  .mask {
+    height: calc(100vh - 550px);
+  }
+
+  .navbar-brand img{
+    width: 90px;
+    height: 90px;
+  }
+
+  .nav-item {
+    font-size: 2.5rem;
+    padding: 0 30px;
+  }
+
+  ul li{
+    margin-right: 0;
+  }
+
+  .nav-link {
+    font-size: 1.9rem;
+    padding: 0.8rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .btn {
+    padding: 1.0rem 1.4rem;
+    font-size: 2.3rem;
+  }
+
+  .navbar-toggler {
+    padding: 1.1rem 1.9rem;
+  }
+
+  .navbar-toggler-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Image-banner title-text */
+
+.title-text {
+  line-height: 2.8;
+  padding-top: 13.7rem;
+ }
+
+.title-text h3 {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #D3E0EA;
+  text-transform: none;
+}
+
+@media only screen and (max-device-width: 812px) {
+  .title-text h2 {
+    font-size: 5.0rem;
+  }
+
+  .cover-page {
+    width: 100%;
+    height: 25vh;
+  }
+
+  .title-text {
+    line-height: 2.8;
+    padding-top: 10.7rem;
+   }
+
+  .title-text h3 {
+    font-size: 2.1rem;
+  }
+}
+
+/* Features */
+
+#features {
+  background-color: #fff;
+}
+
+.features-col {
+  text-align: center;
+  padding: 3%;
+}
+
+.features-col img {
+  width: 20%;
+  height: 30%;
+}
+
+.icon {
+  color: #B83B5E !important;
+  padding-bottom: 1rem;
+}
+
+.d-flex {
+  padding-bottom: 1.3rem;
+}
+
+@media only screen and (max-device-width: 812px) {
+  #features i {
+    transform: scale(1.3);
+  }
+
+  .features-col {
+    padding: 3.2%;
+  }
+
+  .d-flex {
+    padding-top: 1rem;
+  }
+}
+
+/* Mission */
+
+#cards-section {
+  padding: 2% 7% 0.8%;
+  background-image: url('images/waves.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#cards-section {
+  margin-bottom: 5rem;
+}
+
+.image-card {
+  padding: 3% 1%;
+}
+
+#card-heading {
+  color: #8f8f8f;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+#cards-section .wrap-shadow {
+  border-radius: 2%;
+  box-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.8s ease;
+}
+
+#cards-section .wrap-shadow:hover {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+#cards-section .wrap-shadow .card-body {
+  border-radius: 0% 0% 2% 2%;
+}
+
+#cards-section .card-body .row {
+  margin-bottom: 8px;
+}
+
+#cards-section #quick-text p{
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+#cards-section h4 {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0.9rem 1.1rem 1.6rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+#cards-section h3 {
+  color: #6A2C70;
+  font-weight: bold;
+}
+
+#cards-section .shadow-none {
+  padding: 3px 5px;
+  border-left: 3px solid #6A2C70;
+  background-color: #EEEEEE;
+  border-radius: 2%;
+  margin: 0;
+}
+
+#cards-section .card-body img {
+  height: 60px;
+  width: 60px;
+}
+
+#cards-section h5 p{
+  font-size: 0.8rem;
+  text-transform: none;
+  padding: 0;
+  margin: 0.4rem auto;
+}
+
+.div-dots {
+  width: 5%;
+  height: 2px;
+  border-bottom: 7px dotted #A2DBFA;
+  opacity: 0.6;
+  margin: 30px auto;
+}
+
+#cards-section .rs {
+  font-size: 1.2rem;
+  color: #687980;
+}
+
+.shadow-none#quick-text {
+  border-left: 2px solid #687980;
+}
+
+.shadow-none p {
+  font-size: 0.9rem;
+}
+
+#cards-section .image-card .card{
+  overflow: hidden;
+  border-radius: 2% 2% 0 0;
+}
+
+#cards-section .image-card .card img.card-img-top{
+  -webkit-transition:all .9s ease;
+  -moz-transition:all .9s ease;
+  -o-transition:all .9s ease;
+  -ms-transition:all .9s ease;
+  width: 100%;
+  height: 340px;
+  object-position: center;
+  object-fit: cover;
+}
+
+#cards-section .image-card .card img.card-img-top:hover{
+  opacity: 0.7;
+  -webkit-transform:scale(1.15);
+  -moz-transform:scale(1.15);
+  -ms-transform:scale(1.15);
+  -o-transform:scale(1.15);
+  transform:scale(1.15);
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 812px) {
+  #cards-section h3 {
+    font-size: 1.8rem;
+  }
+
+
+  #cards-section h4 {
+    font-size: 1.4rem;
+    padding: 1.6rem 1.1rem 2.2rem;
+  }
+
+  .div-dots {
+    width: 7%;
+    height: 4px;
+    border-bottom: 9px dotted #A2DBFA;
+  }
+
+  #card-heading {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .image-card {
+    padding: 4% 8%;
+  }
+
+  #cards-section .rs {
+    font-size: 1.8rem;
+  }
+
+  .shadow-none#quick-text {
+    border-left: 2px solid #687980;
+  }
+
+  .shadow-none p {
+    font-size: 1.7rem;
+  }
+
+  #cards-section #quick-text p{
+    font-size: 1.5rem;
+  }
+
+  #cards-section h5 p{
+    font-size: 1.4rem;
+    padding: 0;
+  }
+
+  #cards-section .card-body img {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+  }
+
+  #cards-section .image-card .card img.card-img-top{
+    height: 630px;
+    object-position: top;
+  }
+}
+
+@media screen and (min-device-width: 648px) and (max-device-width: 991px)  {
+  .image-card {
+    padding: 4% 14%;
+  }
+
+  .card-img-top {
+    height: 540px;
+    object-position: center;
+  }
+}
+
+@media screen and (min-device-width: 540px) and (max-device-width: 1024px)  {
+  .cover-img {
+    background-image: url('images/ph-business-woman.jpg');
+    height: calc(100vh - 250px);
+    background-position: center;
+  }
+  .mask {
+    height: calc(100vh - 250px);
+  }
+
+  .title-text h2 {
+    font-size: 4.2rem;
+  }
+
+  .cover-page {
+    width: 100%;
+    height: 19vh;
+  }
+
+  .title-text {
+    line-height: 2.8;
+   }
+
+  .title-text h3 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Testimonials */
+
+.quotes i{
+  padding: 30px 0 0;
+  color: rgba(139, 154, 70, 0.25) !important;
+}
+
+.testimonials-heading p{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 3rem;
+}
+
+.carousel-inner {
+  text-align: center;
+  height: auto;
+  width: 40%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.carousel, .slide .carousel-inner .d-block {
+  padding: 40px 18px 80px;
+  margin: auto;
+}
+
+.carousel-control-prev, .carousel-control-next, i, .writer {
+  color: #541212 !important;
+}
+
+.testimonials .wrap-shadow{
+  box-shadow: rgba(84, 18, 18, 0.25) 0px 14px 28px, rgba(84, 18, 18, 0.22) 0px 10px 10px;
+  margin: auto 0;
+}
+
+.testimonials .wrap-shadow p{
+  font-style: italic;
+  font-family: 'Kite One', sans-serif;
+  color: #8B9A46;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: #54567A;
+  background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+  padding-top: 20px;
+}
+
+footer h4 {
+  color: #fff;
+  text-shadow: 2px 2px 8px #000;
+}
+
+footer p {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 200;
+  padding-top: 15px;
+  font-size: 0.9rem;
+}
+
+footer p a {
+  color: #eee;
+  text-decoration: none;
+  position: relative;
+}
+
+footer p a:hover {
+  color: #eee;
+}
+
+footer p a:after, footer i:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #eee;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+footer p a:hover:after, footer i:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+footer i {
+  color: #EAEAEA !important;
+  padding: 15px 5px 8px;
+  transform: scale(1.4, 1.4);
+}
+
+@media only screen and (max-device-width: 812px) {
+
+  .testimonials .wrap-shadow p{
+    font-size: 2rem;
+  }
+
+  footer {
+    height: 750px;
+  }
+
+  footer p {
+    font-weight: 200;
+    padding-top: 25px;
+    font-size: 1.7rem;
+  }
+
+  footer i {
+    padding: 35px 15px 12px;
+    transform: scale(1.7, 1.7);
+  }
+}
