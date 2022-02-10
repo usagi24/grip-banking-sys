@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/usagi24/grip-banking-sys.git
+   git clone git@github.com:usagi24/grip-banking-sys.git
    ```
   
 <!-- CONTRIBUTING -->
